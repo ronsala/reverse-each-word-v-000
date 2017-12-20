@@ -1,3 +1,5 @@
+string = "Hello there, and how are you?"
+
 def reverse_each_word(string)
   words = string.split(/ /)
   new_sentence = []
@@ -12,6 +14,8 @@ def reverse_each_word(string)
 	end
 	new_sentence.join(' ')
 end
+
+reverse_each_word(string)
 
 def reverse_each_word(string)
   words = string.split(/ /)
